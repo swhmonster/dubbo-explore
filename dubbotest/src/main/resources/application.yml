@@ -1,0 +1,12 @@
+dubbo:
+  application:
+    name:  dubbo-consumer
+  registry:
+    address: zookeeper://10.20.47.215:2181
+    client: curator
+    protocol: zookeeper
+  protocol:
+    name: dubbo
+    port: 20881
+  scan:
+    basePackages: com.walter.dubbotest.service
