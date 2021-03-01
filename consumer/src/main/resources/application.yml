@@ -11,3 +11,6 @@ dubbo:
     serialization: kryo
   scan:
     basePackages: com.walter.dubbotest.service
+
+server:
+  port: 8090

@@ -3,13 +3,13 @@ package com.walter.dubbotest.service.impl;
 import org.apache.dubbo.config.annotation.Service;
 import org.springframework.stereotype.Component;
 
-import com.walter.dubbotest.service.DataService;
+import com.walter.dubbotest.service.OperationService;
 
 @Service
 @Component
-public class DataServiceImpl implements DataService {
+public class OperationServiceImpl implements OperationService {
     @Override
-    public int dataDeal() {
+    public int operationDeal() {
         return 0;
     }
 }
